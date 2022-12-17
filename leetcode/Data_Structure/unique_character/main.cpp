@@ -38,14 +38,12 @@ public:
         if (smallest_index == INT_MAX)
             smallest_index = -1; 
 
-
         return smallest_index;
     }
 };
 
 int main (){
     Solution s1;
-    s1.firstUniqChar("Hello"); 
-    s1.firstUniqChar("Djordan Arief Firdausy"); 
+    s1.firstUniqChar("Hello"); // returns 0; 
     return 0; 
 }
