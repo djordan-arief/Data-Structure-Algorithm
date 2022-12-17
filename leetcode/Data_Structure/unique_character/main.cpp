@@ -38,7 +38,7 @@ public:
         if (smallest_index == INT_MAX)
             smallest_index = -1; 
 
-        std::cout << "The smallest index: " << smallest_index << std::endl; 
+
         return smallest_index;
     }
 };
